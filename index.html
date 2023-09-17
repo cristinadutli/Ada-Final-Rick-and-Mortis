@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Final Projet Rick and Mortis</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+    
+            <img src="imagenes/mortis.png" height="120" alt="logo de Mortis">
+    
+        </div>
+        <h2 class="titulo">Rick and Morty</h2>
+        <div class="selection">
+            <select class="genero" id="genderFilter">
+                <option disabled selected=>Seleccione un género</option>
+                <option value="all">Todos</option>
+                <option value="male">Hombres</option>
+                <option value="female">Mujeres</option>
+                <option value="genderless">Sin género</option>
+                <option value="unknown">Desconocido</option>
+            </select>
+        </div>
+    </header>
+    
+    <div class="container" id="container">
+    
+    </div>
+    <div class="page">
+        <div class="estilo">
+            <button id="firstPage">Primera pagina</button>
+            <button id="prevPage"> Página anterior</button>
+    
+            <button id="nextPage"> Página siguiente</button>
+            <button id="lastPage"></i> Ultima página</button>
+        </div>
+        <div class="info">
+            <p>Total de personajes: <span id="totalCharacters">0</span></p>
+            <p id="currentPageInfo">Página 1 de 0</p>
+        </div>
+    </div>
+    
+    <footer class="foot">
+         <div class="contact-info">
+                <h3 class="nombre">Ana Dutli</h3>
+                <p class="programador">ProgramadorJS 2023</p>
+                <a class="mails"  href="anadutli@hotmail.com">anadutli@hotmail.com</a><br>
+            </div>      
+        <div class="redes">
+            <h3 class="sigueme">Sigueme</h3>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>                        
+        </div>
+        <div class="foot-text">
+            <p>Derechos reservados</p>
+        </div>
+    </footer>
+  <script src="main.js"></script>  
+</body>
+</html>
